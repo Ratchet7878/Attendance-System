@@ -66,7 +66,7 @@ while True:
             imgBackground = cvzone.cornerRect(imgBackground, bbox, rt=0)
         
             
-            # Define the top-left and bottom-right points with your background offsets
+            # Define the top-left and bottom-right points with your background offsets, if I want to keep everything working with openCV only
             # start_point = (55 + x1, 162 + y1) 
             # end_point = (55 + x2, 162 + y2)   
                 
