@@ -64,7 +64,7 @@ while True:
 
             bbox = 55 + x1, 162 + y1, x2 - x1, y2 - y1
             imgBackground = cvzone.cornerRect(imgBackground, bbox, rt=0)
-            
+        
             
             # Define the top-left and bottom-right points with your background offsets
             # start_point = (55 + x1, 162 + y1) 
@@ -74,4 +74,4 @@ while True:
             # cv2.rectangle(imgBackground, start_point, end_point, (0, 255, 0), 2)
 
     cv2.imshow("Attendance System", imgBackground)
-    cv2.waitKey(1) 
+    cv2.waitKey(1)
